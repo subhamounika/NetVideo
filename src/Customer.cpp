@@ -23,6 +23,11 @@ std::string Customer::getName() const {
     return name;
 }
 
+//calculates amount for current statement
+	double amountFor(const Rental& r) const
+	{
+		return 0;
+	}
 // add a rental to this customer
 void Customer::addRental(const Rental& rental) {
 
